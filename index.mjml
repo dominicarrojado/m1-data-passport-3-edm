@@ -1,0 +1,663 @@
+<mjml>
+  <mj-head>
+    <mj-title> M1 Data Passport 3 - Dominic Arrojado </mj-title>
+
+    <!-- START of Global Attributes -->
+    <mj-breakpoint width="600px" />
+    <mj-attributes>
+      <mj-all padding="0" font-family="Arial" line-height="1.4" />
+
+      <mj-class name="place" align="center" padding="30px 30px 0" />
+      <mj-class
+        name="place-img-container"
+        width="33%"
+        vertical-align="middle"
+        padding="10px 0"
+      />
+      <mj-class name="place-img" align="center" width="177px" />
+      <mj-class
+        name="place-info"
+        css-class="mobile-padding-x-0"
+        width="46%"
+        vertical-align="middle"
+        padding="0 15px"
+      />
+      <mj-class
+        name="place-title"
+        css-class="mobile-center"
+        color="#ef663b"
+        font-size="20px"
+        font-weight="bold"
+        text-transform="uppercase"
+      />
+      <mj-class
+        name="place-desc"
+        css-class="mobile-center"
+        color="#555555"
+        font-size="15px"
+        line-height="1.2"
+      />
+      <mj-class
+        name="place-illus-container"
+        css-class="mobile-hide"
+        width="21%"
+        vertical-align="middle"
+      />
+      <mj-class name="place-illus" align="center" />
+
+      <mj-class name="benefit" width="25%" padding-top="30px" />
+      <mj-class name="benefit-icon" align="center" width="91px" />
+      <mj-class
+        name="benefit-title"
+        align="center"
+        padding-top="15px"
+        5
+        color="#ffffff"
+        font-size="11px"
+        font-weight="bold"
+        line-height="1.6"
+        text-transform="uppercase"
+      />
+    </mj-attributes>
+    <!-- END of Global Attributes -->
+
+    <!-- START of Inline Style Overrides -->
+    <!-- prettier-ignore -->
+    <mj-style inline="inline">
+      .btn-text-sm,
+      .btn-text-md {
+        display: inline;
+        margin: 0;
+        background: transparent;
+        color: #ffffff;
+        font-family: Arial;
+        line-height: 1.4;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      .btn-text-md {
+        font-size: 14px;
+      }
+
+      .btn-text-sm {
+        font-size: 12px;
+      }
+    </mj-style>
+    <!-- END of Inline Style Overrides -->
+
+    <!-- START of Internal/Mobile Styles -->
+    <!-- prettier-ignore -->
+    <mj-style>
+      .btn-text-hover a:hover,
+      a.btn-text-hover:hover {
+        cursor: pointer !important;
+        text-decoration: none !important;
+      }
+
+      @media only screen and (max-width: 599px) {
+        .mobile-hide {
+          display: none !important;
+        }
+
+        .mobile-center,
+        .mobile-center > div {
+          text-align: center !important;
+        }
+
+        .mobile-center > table {
+          margin: 0 auto !important;
+        }
+
+        .mobile-padding-x-0 > table > tbody > tr > td {
+          padding-right: 0 !important;
+          padding-left: 0 !important;
+        }
+      }
+    </mj-style>
+    <!-- END of Internal/Mobile Styles -->
+
+    <mj-raw>
+      <!-- START of Google Tag Manager -->
+      <script>
+        if (window.location.hostname !== "localhost") {
+          (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+            var f = d.getElementsByTagName(s)[0],
+              j = d.createElement(s),
+              dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+          })(window, document, "script", "dataLayer", "GTM-TSMLTPT");
+        }
+      </script>
+      <!-- END of Google Tag Manager -->
+
+      <link rel="icon" href="https://dominicarrojado.com/favicon.ico" />
+      <meta name="theme-color" content="#d7e1e9" />
+      <meta
+        name="description"
+        content="Email template for M1 Data Passport 3"
+      />
+      <link
+        rel="canonical"
+        href="https://dominicarrojado.com/m1-data-passport-3-edm/"
+      />
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:type" content="website" />
+      <meta
+        property="og:title"
+        content="M1 Data Passport 3 - Dominic Arrojado"
+      />
+      <meta
+        property="og:description"
+        content="Email template for M1 Data Passport 3"
+      />
+      <meta
+        property="og:url"
+        content="https://dominicarrojado.com/m1-data-passport-3-edm/"
+      />
+      <meta
+        property="og:site_name"
+        content="M1 Data Passport 3 - Dominic Arrojado"
+      />
+      <meta
+        property="og:image"
+        content="https://dominicarrojado.com/m1-data-passport-3-edm/images/m1-data-passport-3-screenshot.png"
+      />
+      <meta
+        property="og:image:secure_url"
+        content="https://dominicarrojado.com/m1-data-passport-3-edm/images/m1-data-passport-3-screenshot.png"
+      />
+      <meta property="og:image:width" content="2880" />
+      <meta property="og:image:height" content="1800" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta
+        name="twitter:description"
+        content="Email template for M1 Data Passport 3"
+      />
+      <meta
+        name="twitter:title"
+        content="M1 Data Passport 3 - Dominic Arrojado"
+      />
+      <meta
+        name="twitter:image"
+        content="https://dominicarrojado.com/m1-data-passport-3-edm/images/m1-data-passport-3-screenshot.png"
+      />
+    </mj-raw>
+  </mj-head>
+  <mj-body width="600px" background-color="#f6f6f6">
+    <mj-wrapper background-url="images/bg.png" background-color="#ffffff">
+      <!-- START of Hero Image -->
+      <mj-section>
+        <mj-group>
+          <mj-column width="100%">
+            <mj-image
+              href="https://www.m1.com.sg/Mobile/mobile-add-ons/Roaming/data-passport"
+              rel="noopener noreferrer nofollow"
+              src="images/banner-m1-data-passport-10-breathtaking-destinations.png"
+              alt="M1 Data PassPort - 10 Breathtaking Destinations To Usher in 2018, Ring in the New Year and celebrate in some of the world's most awe-inspiring places."
+            />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Hero Image -->
+
+      <!-- START of Austria -->
+      <mj-section mj-class="place">
+        <mj-column mj-class="place-img-container">
+          <mj-image
+            mj-class="place-img"
+            src="images/place-austria.png"
+            alt="A picture of Austria"
+          />
+        </mj-column>
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title"> Austria </mj-text>
+          <mj-text mj-class="place-desc">
+            There's definitely never a dull moment when you celebrate the New
+            Year in Austria. All church bells ring at the stroke of midnight and
+            the Austrian annual New Year tradition begins, which includes
+            festive concert repertoires and magical fireworks displays.
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="place-illus-container">
+          <mj-image
+            mj-class="place-illus"
+            src="images/illus-suitcases.png"
+            alt="Suitcases"
+            width="95px"
+          />
+        </mj-column>
+      </mj-section>
+      <!-- END of Austria -->
+
+      <!-- START of Thailand -->
+      <mj-section mj-class="place" direction="rtl">
+        <mj-column mj-class="place-img-container">
+          <mj-image
+            mj-class="place-img"
+            src="images/place-thailand.png"
+            alt="A picture of Thailand"
+          />
+        </mj-column>
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title" color="#4cb2b1"> Thailand </mj-text>
+          <mj-text mj-class="place-desc">
+            Begin your New Year by lighting up paper lanterns in Chiang Mai, or
+            witness fireworks displays over a twinkling skyline at Bangkok's
+            many rooftop bars. Though each Thai city is unique, they are all
+            sure to bring New Year celebrations that are equally breathtaking.
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="place-illus-container">
+          <mj-image
+            mj-class="place-illus"
+            src="images/illus-drink.png"
+            alt="A glass of drink"
+            width="89px"
+          />
+        </mj-column>
+      </mj-section>
+      <!-- END of Thailand -->
+
+      <!-- START of Indonesia -->
+      <mj-section mj-class="place">
+        <mj-column mj-class="place-img-container">
+          <mj-image
+            mj-class="place-img"
+            src="images/place-indonesia.png"
+            alt="A picture of Indonesia"
+          />
+        </mj-column>
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title"> Indonesia </mj-text>
+          <mj-text mj-class="place-desc">
+            If you want to usher in the New Year with some relaxation, Indonesia
+            is the best place to go. Escape the busy city life and decompress at
+            the country's gorgeous beaches, quiet mountainsides, or spa and yoga
+            retreats.
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="place-illus-container">
+          <mj-image
+            mj-class="place-illus"
+            src="images/illus-shades.png"
+            alt="Shades and calendar"
+            width="108px"
+          />
+        </mj-column>
+      </mj-section>
+      <!-- END of Indonesia -->
+
+      <!-- START of Germany -->
+      <mj-section mj-class="place" direction="rtl">
+        <mj-column mj-class="place-img-container">
+          <mj-image
+            mj-class="place-img"
+            src="images/place-germany.png"
+            alt="A picture of Germany"
+          />
+        </mj-column>
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title" color="#4cb2b1"> Germany </mj-text>
+          <mj-text mj-class="place-desc">
+            Feast over delicious meals, get lucky charms and clink your
+            champagne glasses just like the Germans do during New Year's Eve.
+            When it comes to fun and memorable celebrations like this, Germany
+            is definitely a destination you shouldn't miss.
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="place-illus-container">
+          <mj-image
+            mj-class="place-illus"
+            src="images/illus-passports.png"
+            alt="Passports"
+            width="89px"
+          />
+        </mj-column>
+      </mj-section>
+      <!-- END of Germany -->
+
+      <!-- START of South Korea -->
+      <mj-section mj-class="place">
+        <mj-column mj-class="place-img-container">
+          <mj-image
+            mj-class="place-img"
+            src="images/place-south-korea.png"
+            alt="A picture of South Korea"
+          />
+        </mj-column>
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title"> South Korea </mj-text>
+          <mj-text mj-class="place-desc">
+            Discover Korea's East Sea where most people visit and witness the
+            first sunrise of the year. Immerse yourself in Korea's mouthwatering
+            cuisine and fascinating culture during the day and party the night
+            away at Seoul's bustling and extravagant nightlife.
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="place-illus-container">
+          <mj-image
+            mj-class="place-illus"
+            src="images/illus-globe.png"
+            alt="Globe"
+            width="110px"
+          />
+        </mj-column>
+      </mj-section>
+      <!-- END of South Korea -->
+
+      <!-- START of Spain -->
+      <mj-section mj-class="place" direction="rtl">
+        <mj-column mj-class="place-img-container">
+          <mj-image
+            mj-class="place-img"
+            src="images/place-spain.png"
+            alt="A picture of Spain"
+          />
+        </mj-column>
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title" color="#4cb2b1"> Spain </mj-text>
+          <mj-text mj-class="place-desc">
+            In Spain, the New Year celebrations start as early as December 31.
+            The streets are filled with people and music, but if you're looking
+            for a huge party, visit the famous Puerta del Sol Square in Madrid
+            where it turns into a large festivity once the clock strikes twelve.
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="place-illus-container">
+          <mj-image
+            mj-class="place-illus"
+            src="images/illus-suitcase.png"
+            alt="Suitcase"
+            width="85px"
+          />
+        </mj-column>
+      </mj-section>
+      <!-- END of Spain -->
+
+      <!-- START of United Kingdom -->
+      <mj-section mj-class="place">
+        <mj-column mj-class="place-img-container">
+          <mj-image
+            mj-class="place-img"
+            src="images/place-united-kingdom.png"
+            alt="A picture of United Kingdom"
+          />
+        </mj-column>
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title"> United Kingdom </mj-text>
+          <mj-text mj-class="place-desc">
+            During New Year's Eve, pubs and restaurants all over the UK gear up
+            for parties that last until dawn. The next afternoon, more than
+            10,000 performers from all over the world will gather for a massive
+            New Year's Day parade in London.
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="place-illus-container">
+          <mj-image
+            mj-class="place-illus"
+            src="images/illus-big-ben.png"
+            alt="Big Ben"
+            width="37px"
+          />
+        </mj-column>
+      </mj-section>
+      <!-- END of United Kingdom -->
+
+      <!-- START of Australia -->
+      <mj-section mj-class="place" direction="rtl">
+        <mj-column mj-class="place-img-container">
+          <mj-image
+            mj-class="place-img"
+            src="images/place-australia.png"
+            alt="A picture of Australia"
+          />
+        </mj-column>
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title" color="#4cb2b1"> Australia </mj-text>
+          <mj-text mj-class="place-desc">
+            Gather with more than one million people over Sydney Harbour and
+            watch the spectacular annual fireworks display. It's so
+            extraordinary that is also anticipated by people from all over the
+            world as well.
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="place-illus-container">
+          <mj-image
+            mj-class="place-illus"
+            src="images/illus-camera.png"
+            alt="Camera and photos"
+            width="89px"
+          />
+        </mj-column>
+      </mj-section>
+      <!-- END of Australia -->
+
+      <!-- START of New Zealand -->
+      <mj-section mj-class="place">
+        <mj-column mj-class="place-img-container">
+          <mj-image
+            mj-class="place-img"
+            src="images/place-new-zealand.png"
+            alt="A picture of New Zealand"
+          />
+        </mj-column>
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title"> New Zealand </mj-text>
+          <mj-text mj-class="place-desc">
+            Experience the best outdoor celebration only at New Zealand Witness
+            the splendour of nature as you ring in 2018 in some of the country's
+            best camping festivals such as Rhythm &amp; Vines, Northern Bass,
+            Rhythm &amp; Alps, and Highlife NYD Experience.
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="place-illus-container">
+          <mj-image
+            mj-class="place-illus"
+            src="images/illus-tickets.png"
+            alt="Airline tickets"
+            width="98px"
+          />
+        </mj-column>
+      </mj-section>
+      <!-- END of New Zealand -->
+
+      <!-- START of Philippines -->
+      <mj-section mj-class="place" direction="rtl">
+        <mj-column mj-class="place-img-container">
+          <mj-image
+            mj-class="place-img"
+            src="images/place-philippines.png"
+            alt="A picture of Philippines"
+          />
+        </mj-column>
+        <mj-column mj-class="place-info">
+          <mj-text mj-class="place-title" color="#4cb2b1">
+            Philippines
+          </mj-text>
+          <mj-text mj-class="place-desc">
+            In the Philippines, Filipinos go all out during New Year's Eve
+            celebrations. From the endless array of food, firecrackers that come
+            in various shapres and sizes, to interesting traditions, welcoming
+            2018 in the Pearl of the Orient Seas is definitely a must-try.
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="place-illus-container">
+          <mj-image
+            mj-class="place-illus"
+            src="images/illus-jeep.png"
+            alt="Jeep"
+            width="101px"
+          />
+        </mj-column>
+      </mj-section>
+      <!-- END of Philippines -->
+
+      <!-- START of Cloud -->
+      <mj-section padding-top="40px">
+        <mj-group>
+          <mj-column width="100%">
+            <mj-image src="images/cloud.png" alt="Cloud" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Cloud -->
+    </mj-wrapper>
+
+    <!-- START of Footer -->
+    <mj-wrapper background-color="#7acecc" padding="40px 0 50px">
+      <!-- START of Footer Title -->
+      <mj-section padding="0 15px">
+        <mj-group>
+          <mj-column width="100%">
+            <mj-text
+              align="center"
+              color="#ffffff"
+              font-size="22px"
+              font-weight="bold"
+              line-height="1.3"
+              text-transform="uppercase"
+            >
+              There's no better way to welcome <br class="mobile-hide" />
+              the new year than to create
+              <br class="mobile-hide" />extraordinary memories.
+            </mj-text>
+            <mj-text
+              padding-top="5px"
+              align="center"
+              color="#ffffff"
+              font-size="14px"
+              line-height="1.6"
+            >
+              Spontaneously share photos or videos of your wonderful
+              celebrations <br class="mobile-hide" />
+              overseas with your loved ones with
+              <a
+                href="https://www.m1.com.sg/Mobile/mobile-add-ons/Roaming/data-passport"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                class="btn-text-md btn-text-hover"
+                >M1 Data Passport</a
+              >. Roam overseas with <br class="mobile-hide" />your local data
+              bundle in 56 destinations across Asia, Europe and the United
+              <br class="mobile-hide" />States of America, with a monthly
+              subscription from just $10/month per
+              <br class="mobile-hide" />destination! Try out
+              <a
+                href="https://www.m1.com.sg/Mobile/mobile-add-ons/Roaming/data-passport"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                class="btn-text-md btn-text-hover"
+                >M1 Data Passport</a
+              >
+              today.
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Footer Title -->
+
+      <!-- START of Benefits -->
+      <mj-section padding="0 30px">
+        <mj-column mj-class="benefit">
+          <mj-image
+            mj-class="benefit-icon"
+            src="images/icon-phone-check.png"
+            alt="Hand holding smartphone displaying check icon"
+          />
+          <mj-text mj-class="benefit-title">
+            Easy activation before or during your trip
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="benefit">
+          <mj-image
+            mj-class="benefit-icon"
+            src="images/icon-lock.png"
+            alt="Lock icon"
+          />
+          <mj-text mj-class="benefit-title">
+            No bill shock <br class="mobile-hide" />with
+            <br class="mobile-hide" />network lock
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="benefit">
+          <mj-image
+            mj-class="benefit-icon"
+            src="images/icon-phone-m1.png"
+            alt="Hand holding smartphone displaying M1 logo"
+          />
+          <mj-text mj-class="benefit-title">
+            Keep track <br class="mobile-hide" />of data
+            <br class="mobile-hide" />passport usage
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="benefit">
+          <mj-image
+            mj-class="benefit-icon"
+            src="images/icon-people.png"
+            alt="3 people standing in line"
+          />
+          <mj-text mj-class="benefit-title">
+            No standing <br class="mobile-hide" />in line
+            <br class="mobile-hide" />for local sim
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- END of Benefits -->
+
+      <!-- START of Subscribe Now -->
+      <mj-section padding="25px 15px 0">
+        <mj-group>
+          <mj-column width="100%">
+            <mj-image
+              href="https://web.m1.com.sg/dpp"
+              rel="noopener noreferrer nofollow"
+              src="images/btn-sign-up-today.png"
+              alt="Sign Up Today"
+              width="461px"
+            />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Subscribe Now -->
+
+      <!-- START of Unsubscribe -->
+      <mj-section padding="20px 15px 0">
+        <mj-group>
+          <mj-column width="100%">
+            <mj-text align="center" color="#ffffff" font-size="14px">
+              If you wish to unsubscribe from our mailing list,
+              <a
+                href="https://www.m1.com.sg/mma"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                class="btn-text-sm btn-text-hover"
+                >click here</a
+              >
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <!-- END of Unsubscribe -->
+    </mj-wrapper>
+    <!-- END of Footer -->
+
+    <mj-raw>
+      <!-- START of Google Tag Manager (noscript) -->
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-TSMLTPT"
+          height="0"
+          width="0"
+          style="display: none; visibility: hidden"
+        >
+        </iframe>
+      </noscript>
+      <!-- END of Google Tag Manager (noscript) -->
+    </mj-raw>
+  </mj-body>
+</mjml>
